@@ -75,7 +75,8 @@ header span{
 }
 
 .profile_section{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/backgroundprofile.png);
+    background-image: linear-gradient(to bottom ,rgba(27, 25, 25)10%,rgba(0,0,0,0)),url(images/backgroundprofile.png);
+    height:600px;
     margin-top: 0%;
 }
 
@@ -86,9 +87,9 @@ header span{
 
 .title h4{
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     color:white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     letter-spacing: 1.2px;
     word-spacing: 5px;
@@ -112,8 +113,8 @@ header span{
 
 .card_Container .card{
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     margin: 20px;
     overflow: hidden;
     box-shadow: 0 30px 30px -20px rgba(0, 0, 0, 1),
@@ -203,10 +204,71 @@ header span{
 }
 
 
-/*-----section2------*/
+/*-----section1------*/
 
-.section_2{
+.section_1{
+    margin-top: 100px;
     width: 100%;
-    height: 500px;
-    background-color: #aca5a5;
+    height: 600px;
+    background-image: url(images/img_1.png);
+    background-position: center;
+    background-size: cover;
 }
+
+.intro{
+    height: 700px;
+    color: white;
+    padding: 8em;
+    margin-right: 600px;
+    background-image: linear-gradient( to right,
+    rgb(27, 25, 25)90%,
+     rgba(0,0,0,0));
+}
+
+.intro h1{
+    font-weight: 700;
+    font-size: 50px;
+    word-spacing:5px;
+    letter-spacing: 0.6px;
+    transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.intro button{
+    margin-top:50px;
+    margin-left:20px ;
+    transform: scale(1.5);
+    padding: 5px 15px;
+    border-radius: 5px;
+
+}
+.intro hr{
+    color: white;
+    margin-top: 10px;
+}
+
+.socials {
+    display: inline-block;
+    list-style: none;
+}
+
+.socials li a {
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.contacts{
+      display:inline-block;
+      list-style: none;
+      font-size: 11px;
+      padding: 10px;
+      color:rgb(170, 166, 166);
+}
+
+
+
+
+
+
+
